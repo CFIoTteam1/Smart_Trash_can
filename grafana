@@ -1,0 +1,11 @@
+SELECT 
+    id,
+    date_add('hour', 0, time) AS local_time,
+    CAST(state AS DOUBLE) AS state_value
+FROM 
+    "trashcanDB"."trashcanStatus"
+WHERE 
+    time >= ago(10m) 
+    AND id = '1'
+ORDER BY 
+    local_time ASC
