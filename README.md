@@ -1,8 +1,8 @@
 # Smart_Trash_can
-**Overview**
-The Smart Trash Can IoT Project is an innovative solution designed to modernize waste management practices using Internet of Things (IoT) technology. The project utilizes sensors, microcontrollers, and cloud computing to monitor and optimize trash can fill levels in real-time.
+**Overview**  
+The Smart Trash Can IoT Project is an innovative solution designed to modernize waste management practices using Internet of Things (IoT) technology. The project utilizes sensors, microcontrollers, and cloud computing to monitor and optimize trash can fill levels in real-time.  
 
-**Features**
+**Features**  
   Ultrasonic Sensor Monitoring: Measures the distance to the trash to determine fill level.
   AWS IoT Integration: Utilizes MQTT protocol to transmit data to AWS Cloud for analysis and monitoring.
   Dynamic LED Indication: Visual indication of trash can fill levels using RGB LEDs.
